@@ -11,4 +11,6 @@
 
 4. ``Keyin esa env faylini activate qilish uchun buni ham terminalga kiriting> env\scripts\activate`` 
 
-5. ``Tepadagi Qadamlardan So'ng Ushbu So'zni Kiritishdan oldin requirements ichidagibase.txt ga kirib o'zingiz ishlatadigan package larni yozib qo'ying undan so'ng ushbu so'zni terminalga kiriting> pip install -r requirements/base.txt``
+5. ``Tepadagi Qadamlardan So'ng Ushbu So'zni Kiritishdan oldin requirements ichidagi base.txt ga kirib o'zingiz ishlatadigan package larni yozib qo'ying undan so'ng ushbu so'zni terminalga kiriting> pip install -r requirements/base.txt``
+
+6. ``keyin esa sizda Virtual Muhit o'rnatilgan bo'ladi va bu muhit boshqa loyihalaringizda versiya muammosini tug'dirmaydi``
