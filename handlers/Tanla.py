@@ -18,6 +18,19 @@ tanlandi = Router()
 @tanlandi.callback_query(F.data == 'Tanlandi')
 async def uzb(query: CallbackQuery):
     await query.message.edit_text('siz tanlagan mahsulot savatga tushdi. sizga 30daqiqa ichida yetkazib berishadi, Yana Buyurtma berish uchun /buyurtma ni bosing')
+
+@tanlandi.callback_query(F.data == 'Tanlandi')
+async def uzb(query: CallbackQuery):
+    await query.message.edit_text('siz tanlagan mahsulot savatga tushdi. sizga 30daqiqa ichida yetkazib berishadi, Yana Buyurtma berish uchun /buyurtma ni bosing')
+    
+@tanlandi.callback_query(F.data == 'Tanlandi')
+async def uzb(query: CallbackQuery):
+    await query.message.edit_text('siz tanlagan mahsulot savatga tushdi. sizga 30daqiqa ichida yetkazib berishadi, Yana Buyurtma berish uchun /buyurtma ni bosing')
+
+@tanlandi.callback_query(F.data == 'Tanlandi')
+async def uzb(query: CallbackQuery):
+    await query.message.edit_text('siz tanlagan mahsulot savatga tushdi. sizga 30daqiqa ichida yetkazib berishadi, Yana Buyurtma berish uchun /buyurtma ni bosing')
+
 @tanlandi.message(Command('buyurtma'))
 async def end(message: Message):
     await message.answer('Yaxshi, Mana Menu', reply_markup=menular)    
